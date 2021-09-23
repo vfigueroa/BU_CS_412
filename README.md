@@ -1,3 +1,7 @@
-# BU_CS_412
+##Repo for Boston University’s CS 412 Class
 
-Repo for Boston University’s CS 412 Class, Full Stack Web Development(MEAN)
+CS 412: Full Stack Web Development(MEAN)
+
+Fall 2021
+
+Perry Donham
