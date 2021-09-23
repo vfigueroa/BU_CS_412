@@ -1,4 +1,5 @@
 const expression = '8%3';
+
 let operator = expression => {
     if (expression.includes('+')){
         expression = expression.split('+');
@@ -26,10 +27,12 @@ let operator = expression => {
     }
 }
 
+console.log(`${expression} = ${operator(expression)}`);
+
+// Other test cases
 //console.log(operator('19 + 7'));
 //console.log(operator('19 - 7'));
 //console.log(operator('19 * 7'));
 //console.log(operator('19 / 7'));
 //console.log(operator('19 ^ 7'));
 //console.log(operator('19 % 7'));
-console.log(`${expression} = ${operator(expression)}`);
